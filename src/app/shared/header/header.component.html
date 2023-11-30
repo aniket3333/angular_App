@@ -1,1 +1,37 @@
-<p>header works!</p>
+<div class="container-fluid vw-100">
+    <div class="card">
+        <div class="card-header w-100 bg-white">
+            <div class="row d-flex align-items-center">
+                <div class="col-sm-2">
+                    <span class="material-icons bg-light">apps</span> 
+                    <strong class="p-2">{{title}}<sub class="text-muted"> v3.5.4</sub></strong>
+                </div>
+                <div class="col-sm-7"></div>
+                <div class="col-sm-3">
+                    <div class="row bg-light">
+                        <div class="col-sm-6 pt-3">
+                            <span class="material-icons mr-3">analytics</span>
+                            <span class="material-icons">adds</span> 
+                            <span class="material-icons">dashboard</span>
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="../../../assets/Images/proffessor.jfif" alt="Picture Loading.." width="50">
+                        </div>
+                        <div class="col-sm-4">
+                            <strong class="text-muted p-0">Name</strong>
+                        
+
+                            <select [(ngModel)]="selectedOption" (change)="onSelectChange()" class="custom-select p-0">
+                                <option value="def">Designation</option>
+                                <option value="developer">Developer</option>
+                                <option value="tester">Tester</option>
+                                <option value="manager">Manager</option>
+                              </select>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
