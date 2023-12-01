@@ -12,7 +12,8 @@ import { SharedModule } from '../shared/shared.module';
   declarations: [
     BaseComponent,
     PanelComponent,
-    ScorePanelComponent
+    ScorePanelComponent,
+    
   ],
   imports: [
     CommonModule,

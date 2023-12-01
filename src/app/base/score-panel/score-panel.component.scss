@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    justify-content: space-between; 
+  }
+  
+  .box-1 {
+    width: 20%; 
+    height: 100px; 
+    background-color:blue; 
+    margin: 5px; 
+    box-sizing: border-box; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
+  .box-2 {
+    width: 20%; 
+    height: 100px; 
+    background-color:gray; 
+    margin: 5px; 
+    box-sizing: border-box; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
+  .box-3 {
+    width: 20%; 
+    height: 100px; 
+    background-color:white; 
+    margin: 5px; 
+    box-sizing: border-box; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
+  .box-4{
+    width: 20%; 
+    height: 100px; 
+    background-color:yellow; 
+    margin: 5px; 
+    box-sizing: border-box; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
+  .box-5 {
+    width: 20%; 
+    height: 100px; 
+    background-color:white;
+    margin: 5px; 
+
+    box-sizing: border-box; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
+
+
+  .name{
+      text-align: left;
+      font-size: medium;
+      padding: 3px;
+      color: white;
+  }
+  .name3{
+      text-align: left;
+      font-size: medium;
+      padding: 3px;
+      color: black;
+  }
+  .value{
+      text-align: left;
+      font-size: medium;
+      padding: 3px;
+      color: white;
+  }
+  .vblack{
+      text-align: left;
+      font-size: medium;
+      padding: 3px;
+      color: black;
+  }
+  

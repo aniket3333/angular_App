@@ -1,5 +1,4 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { CustomTimeFormatPipe } from 'src/app/Pipes/custom-time-format.pipe';
 
 @Component({
   selector: 'app-score-panel',
@@ -9,16 +8,14 @@ import { CustomTimeFormatPipe } from 'src/app/Pipes/custom-time-format.pipe';
 })
 export class ScorePanelComponent implements OnInit {
   @Input() score: number;
-  @Input() currencyAmount: number;
-  @Input() date: Date;
-  @Input() time: string; 
+  @Input() currencyValue: number;
+  @Input() dateValue: Date;
+  @Input() timeValue: string;
 
-  constructor(private customTimeFormatPipe: CustomTimeFormatPipe) {}
+  constructor() {}
 
   // Use the custom pipe in the component
-  getFormattedTime(): string {
-    return this.customTimeFormatPipe.transform(this.time);
-  }
+ 
 
   ngOnInit(){
 

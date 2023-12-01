@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PanelComponent implements OnInit {
   someDate: Date = new Date();
-  someTime: string = '12:30';
+  someTime: string = '2h:35m'; 
+
+  aniket:string="Aniket";
 
   constructor(){}
   ngOnInit(){
